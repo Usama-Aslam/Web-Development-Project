@@ -1,0 +1,45 @@
+/* for(var i=1;i<4;i++){
+            var imgs=document.createElement("IMG");
+            imgs.setAttribute("src",img_src[i]);
+            var ps=document.createElement("P");
+            var table=document.createElement("TABLE");
+            var tr=document.createElement("TR");
+            var td=document.createElement("TD");            ps.setAttribute("s")
+            var br=document.createElement("BR");
+            psTxt=document.createTextNode(ps_txt[i]);
+            var table=""
+        } */
+
+
+var left=document.getElementById("left");
+var img=document.createElement("IMG");
+var profileName=document.createElement("P"); /* Profile name */
+var profileTxt=document.createTextNode(obj.name);
+var profession=document.createElement("P");
+var professionTxt=document.createTextNode(obj.profession);
+div1.setAttribute("class","left_divs");
+div1.style.backgroundColor="rgb(0, 69, 116)";
+
+img.setAttribute("src",obj.profile_src);
+img.setAttribute("class","profilePic");
+img.setAttribute("alt","Profile Pic");
+div1.appendChild(img);
+
+        profileName.setAttribute("class","p_name");
+profession.setAttribute("class","p_profession");
+profileName.appendChild(profileTxt);
+profession.appendChild(professionTxt);
+div1.appendChild(profileName);
+div1.appendChild(profession);
+
+div2.setAttribute("class","left_divs");
+div2.style.backgroundColor="green";
+
+var imgs=document.createElement("IMG");
+imgs.setAttribute("src",obj.img_src[1]);
+var ps=document.createElement("P");
+psTxt=document.createTextNode(obj.ps_txt[1]);
+ps.appendChild(psTxt);
+var tab="<table><tr><td></td></tr><tr><td>usasma</td></tr><tr><td>usasma</td></tr><tr><td>usasma</td></tr></table>";
+div2.appendChild(imgs);
+div2.appendChild(ps);

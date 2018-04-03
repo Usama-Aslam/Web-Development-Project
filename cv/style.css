@@ -1,0 +1,267 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+#wrapper{
+    width:100%;
+}
+#left{
+    width:30%;
+    background: rgb(50,129,188);
+    float:left;
+    margin:0px auto;
+    min-height: 1280px;
+    box-shadow: 1px 1px 60px 1px grey;
+}
+#right{
+    width:70%;
+    float:left;
+    min-height: 1280px;
+}
+/*profile pic and text details*/
+.profilePic{
+    display:block;
+    width:100%; 
+    max-width: 250px;
+    border-radius: 50%;
+    margin:0px auto;
+    padding:30px;
+}
+.left_div1{     /*first div of profile and name*/
+    width:100%;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+.p_name{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 1.6em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-align:center;
+}
+.p_profession{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 1.3em;
+    font-style: italic;
+    text-align:center;
+}
+/* div after profile pic and name*/
+.left_div2{
+    width:100%;
+    margin: 0px auto;
+    margin-top:0px;
+}
+.left_div2 h1{
+    margin-top:30px;
+    margin-bottom: 30px;
+    margin-left:30px;
+    font-size: 1.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+/*contact and social detail list*/
+.social_list{
+    list-style: none;
+    display: inline-block;
+    margin-left:-15px;
+    color:#004574
+}
+.social_list li{
+    margin-bottom: 20px;
+}
+.social_list li p{
+    display: inline;
+    margin-left:5px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    position: relative;
+}
+/*the contact and other details css*/
+.social_list li:nth-child(1) span{
+    display: inline-block;
+    width:38px;
+    height:37px;
+    background:url("sprite_img.png");
+    background-size: 180px;
+    background-position:-491px -291px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.social_list li:nth-child(2) span{
+    display: inline-block;
+    width:38px;
+    height:37px;
+    background:url("sprite_img.png");
+    background-size: 180px;
+    background-position:-11px -10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.social_list li:nth-child(3) span{
+    display: inline-block;
+    width:38px;
+    height:37px;
+    background:url("sprite_img.png");
+    background-size: 180px;
+    background-position:-11px -66px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.social_list li:nth-child(4) span{
+    display: inline-block;
+    width:38px;
+    height:37px;
+    background:url("sprite_img.png");
+    background-size: 180px;
+    background-position:-491px -66px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+/*objective details and bar widths*/
+.obj_pstyle{
+    margin-left:30px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skill p{
+    margin-left:30px;
+    color:white;
+    font-family:monospace;
+    font-size: 18px;
+}
+.skill_border{
+    width:80%;
+    height:10px;
+    background:white;
+    margin-left: 30px;
+}
+.skill_border .skill_value1{
+    width:40%;
+    height:10px;
+    background:#004574;
+}
+.skill_border .skill_value2{
+    width:60%;
+    height:10px;
+    background:#004574;
+}
+.skill_border .skill_value3{
+    width:90%;
+    height:10px;
+    background:#004574;
+}
+.skill_border .skill_value4{
+    width:70%;
+    height:10px;
+    background:#004574;
+}
+/*information on section right first list*/
+.info_list{
+    overflow: auto;
+    display: inline-block;
+    list-style: none;
+    margin-left:10px;
+}
+.info_list li{
+    margin-bottom:10px;
+}
+.info_list p{
+    display: inline;
+}
+.info_list li>span~p{
+    display:inline-block; 
+    margin-left:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+
+}
+.info_list li>p{
+    line-height: 2.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.info_list li:nth-child(1) span{
+    display: inline-block;
+    width:38px;
+    height:37px;
+    background:url("3.png");
+    background-size: 180px;
+    background-position:-491px -66px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.info_list li:nth-child(3) span{
+    display: inline-block;
+    width:38px;
+    height:37px;
+    background:url("3.png");
+    background-size: 180px;
+    background-position:-11px -10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.info_list li:nth-child(5) span{
+    display: inline-block;
+    width:38px;
+    height:37px;
+    background:url("3.png");
+    background-size: 180px;
+    background-position:-11px -66px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.info_list li:nth-child(7) span{
+    display: inline-block;
+    width:38px;
+    height:37px;
+    background:url("3.png");
+    background-size: 180px;
+    background-position:-71px -10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.copyright{
+    text-align: center;
+    margin-top:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1199px){
+    .profilePic{
+        width:80%;
+    }
+    .p_name{
+        font-size:2.2em;
+    }
+    .p_profession{
+        font-size: 1.8em;
+    }
+    #left{
+        width:100%;
+    }
+    #right{
+        width:100%;
+    }
+    .social_list li p{
+        font-size:20px;
+    }
+    .info_list li p{
+        font-size:16px;
+    }
+}
+@media screen and (max-width:500px){
+    .social_list li:nth-child(4) p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:360px){
+    #wrapper{
+        width:360px;
+    }
+}
