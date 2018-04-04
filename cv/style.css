@@ -13,7 +13,7 @@ body{
     min-height: 1280px;
     box-shadow: 1px 1px 60px 1px grey;
 }
-#right{
+#right{ 
     width:70%;
     float:left;
     min-height: 1280px;
@@ -263,5 +263,17 @@ body{
 @media screen and (max-width:360px){
     #wrapper{
         width:360px;
+    }
+    .info_list{
+        margin-left:-30px;
+    }
+    .social_list{
+        margin-left:-27px;
+    }
+    .social_list li:nth-child(4) p{
+        font-size: 14px;
+    }
+    #object_div{
+        margin-left:-10px;
     }
 }
