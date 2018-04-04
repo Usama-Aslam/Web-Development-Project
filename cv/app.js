@@ -3,7 +3,7 @@ var right=document.getElementById("right");
 var div1=document.getElementById("div1");
 var div2=document.getElementById("div2");
 var obj={
-   profile_src:"pic.jpg",
+   profile_src:"profile.JPG",
     name:"Muhammad Usama",
     
     profession:"Back-End Developer",
@@ -49,13 +49,14 @@ var obj_p=document.getElementById("obj_p");
 obj_p.innerHTML=obj.objective_p;
 obj_p.setAttribute("class","obj_pstyle");
 
+/*detail information of section right*/
+
 var edu_ul=document.getElementById("div3_ul");
 var edu_li = edu_ul.getElementsByTagName("li");
 edu_li[1].firstChild.innerHTML=obj.education_details;
 edu_li[3].firstChild.innerHTML=obj.qualification_details;
 edu_li[5].firstChild.innerHTML=obj.projects_details;
 edu_li[7].firstChild.innerHTML=obj.aims_details;
-console.log(edu_li[1]);
 var ps=div2.getElementsByTagName("p");
 for(var i=0;i<4;i++){
     ps[i].innerHTML=obj.ps_txt[i];
